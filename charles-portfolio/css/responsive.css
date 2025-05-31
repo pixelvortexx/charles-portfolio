@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+  .sidebar nav ul li {
+    margin-bottom: 0;
+  }
+  main {
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+  .sidebar .roles {
+    display: none; /* hide long roles on small screens */
+  }
+}
